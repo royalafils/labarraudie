@@ -1,0 +1,33 @@
+body {
+    background-color: #413c58;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:visited{
+    color: #a3c4bc;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    border: 0px solid #413c58;
+    height: 100vh;
+}
+
+.barraud:hover {
+    color: #a3c4bc;
+    transition: 0.5s;
+}
+
+
+h1 {
+    color: #f2dda4;
+    margin: auto;
+    width: 30%;
+    border: 2px solid #a3c4bc;
+    padding: 40px;
+    text-align: center;
+    border-radius: 25px;
+}
+
