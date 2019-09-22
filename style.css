@@ -4,30 +4,33 @@ body {
     padding: 0;
 }
 
-a, a:visited{
-    color: #a3c4bc;
+div#container {
+  display: flex;
+  justify-content: center;
+  border: 0px solid #413c58;
+  height: 100vh;
 }
 
-.text-container {
-    display: flex;
-    justify-content: center;
-    border: 0px solid #413c58;
-    height: 100vh;
+a, a:visited {
+  color: #a3c4bc;
+  text-decoration: none;
 }
 
-.barraud:hover {
-    color: #a3c4bc;
-    transition: 0.5s;
+a.titreLien {
+  font-size: 30px;
+  display: block;
+  color: #f2dda4;
+  margin: auto;
+  width: 30%;
+  border: 2px solid #a3c4bc;
+  padding: 40px;
+  text-align: center;
+  border-radius: 25px;
 }
 
-
-h1 {
-    color: #f2dda4;
-    margin: auto;
-    width: 30%;
-    border: 2px solid #a3c4bc;
-    padding: 40px;
-    text-align: center;
-    border-radius: 25px;
+a.titreLien:hover {
+  color: #a3c4bc;
+  transition: 0.5s;
+  border: 2px solid #a3c4bc;
+  background-color: rgb(79, 78, 87);
 }
-
