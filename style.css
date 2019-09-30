@@ -9,6 +9,7 @@ body {
   line-height: 1;
   padding: 0;
   text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+  color: #012d6b;
 }
 
 div#container {
@@ -38,7 +39,7 @@ a.titreLien {
 a.titreLien:hover {
   color: ##f2dda4;
   transition: 0.5s;
-  border: 0px solid #a3c4bc;
+  border: 2px solid #F2E4D7;
   background-color: #999093; 
 }
 
